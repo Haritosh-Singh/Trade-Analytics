@@ -1,0 +1,31 @@
+id,name,email,phone,country_id,state,city,address,business_type,registration_number,gst_number,overall_rating,reliability_score,quality_score,delivery_performance,is_active,created_at
+1,Dealer 01 Intl,dealer01@global.com,+291-9647849,4,International,Shanghai,"680 Business Street, Shanghai",retailer,REG197923,,4.64,0.9,0.902,0.679,True,2024-12-23 19:08:01.563233
+2,Dealer 02 India,dealer02@indiansupplier.com,+91-9040695043,1,Delhi,Mumbai,"626 Business Street, Mumbai",manufacturer,REG577538,GST90014233052,3.39,0.879,0.848,0.685,True,2023-09-12 19:08:01.563255
+3,Dealer 03 India,dealer03@indiansupplier.com,+91-7939915527,1,Tamil Nadu,Delhi,"181 Business Street, Delhi",distributor,REG152657,GST42458810745,4.83,0.649,0.74,0.763,True,2024-01-18 19:08:01.563267
+4,Dealer 04 Intl,dealer04@global.com,+628-9468772,7,International,São Paulo,"437 Business Street, São Paulo",distributor,REG266889,,4.49,0.79,0.778,0.687,True,2023-10-01 19:08:01.563278
+5,Dealer 05 India,dealer05@indiansupplier.com,+91-8179387055,1,Delhi,Hyderabad,"451 Business Street, Hyderabad",manufacturer,REG848206,GST41291964145,3.54,0.728,0.862,0.648,True,2024-11-20 19:08:01.563287
+6,Dealer 06 India,dealer06@indiansupplier.com,+91-7275860817,1,Delhi,Bangalore,"425 Business Street, Bangalore",distributor,REG446954,GST72460039259,3.83,0.683,0.826,0.917,True,2023-11-24 19:08:01.563295
+7,Dealer 07 Intl,dealer07@global.com,+489-1098919,2,International,Milan,"966 Business Street, Milan",retailer,REG413118,,4.51,0.941,0.986,0.747,True,2024-01-02 19:08:01.563303
+8,Dealer 08 Intl,dealer08@global.com,+225-5579094,5,International,São Paulo,"447 Business Street, São Paulo",distributor,REG130434,,3.78,0.868,0.939,0.853,True,2024-03-23 19:08:01.563312
+9,Dealer 09 Intl,dealer09@global.com,+929-7610562,10,International,New York,"607 Business Street, New York",manufacturer,REG188025,,4.29,0.654,0.839,0.618,True,2024-06-21 19:08:01.563320
+10,Dealer 10 India,dealer10@indiansupplier.com,+91-8449553823,1,Karnataka,Hyderabad,"780 Business Street, Hyderabad",distributor,REG391773,GST69407662450,3.5,0.633,0.706,0.789,True,2024-07-21 19:08:01.563327
+11,Dealer 11 India,dealer11@indiansupplier.com,+91-7133272825,1,Maharashtra,Delhi,"973 Business Street, Delhi",wholesaler,REG309044,GST13604460472,4.24,0.695,0.842,0.64,True,2024-12-03 19:08:01.563335
+12,Dealer 12 India,dealer12@indiansupplier.com,+91-7720648887,1,Karnataka,Kolkata,"621 Business Street, Kolkata",manufacturer,REG915573,GST34993708224,4.93,0.643,0.708,0.709,True,2023-08-21 19:08:01.563344
+13,Dealer 13 Intl,dealer13@global.com,+965-4327421,8,International,Milan,"78 Business Street, Milan",wholesaler,REG206851,,4.39,0.721,0.905,0.882,True,2023-12-13 19:08:01.563355
+14,Dealer 14 Intl,dealer14@global.com,+439-7217147,7,International,Toronto,"71 Business Street, Toronto",retailer,REG113266,,4.7,0.929,0.732,0.936,True,2023-10-03 19:08:01.563363
+15,Dealer 15 Intl,dealer15@global.com,+446-3955087,9,International,Berlin,"752 Business Street, Berlin",retailer,REG745830,,4.62,0.815,0.845,0.752,True,2023-11-16 19:08:01.563370
+16,Dealer 16 India,dealer16@indiansupplier.com,+91-8197987692,1,Maharashtra,Chennai,"903 Business Street, Chennai",distributor,REG355709,GST73352813247,4.14,0.867,0.801,0.773,True,2024-08-16 19:08:01.563377
+17,Dealer 17 India,dealer17@indiansupplier.com,+91-8109615163,1,Karnataka,Chennai,"349 Business Street, Chennai",retailer,REG725113,GST84201008529,3.02,0.979,0.726,0.852,True,2024-03-01 19:08:01.563384
+18,Dealer 18 India,dealer18@indiansupplier.com,+91-9774131811,1,Tamil Nadu,Chennai,"729 Business Street, Chennai",distributor,REG569945,GST13405620755,3.19,0.689,0.908,0.707,True,2023-11-27 19:08:01.563391
+19,Dealer 19 India,dealer19@indiansupplier.com,+91-9363900493,1,Tamil Nadu,Pune,"339 Business Street, Pune",retailer,REG836996,GST46308559446,3.61,0.692,0.916,0.71,True,2024-01-13 19:08:01.563398
+20,Dealer 20 Intl,dealer20@global.com,+222-9123504,4,International,Tokyo,"284 Business Street, Tokyo",retailer,REG205409,,4.67,0.718,0.808,0.706,True,2024-01-15 19:08:01.563406
+21,Dealer 21 India,dealer21@indiansupplier.com,+91-9376658660,1,Maharashtra,Mumbai,"300 Business Street, Mumbai",wholesaler,REG768854,GST24993209840,4.75,0.83,0.841,0.754,True,2025-01-07 19:08:01.563413
+22,Dealer 22 Intl,dealer22@global.com,+117-2096280,6,International,São Paulo,"411 Business Street, São Paulo",distributor,REG177680,,4.15,0.875,0.746,0.884,True,2024-09-06 19:08:01.563421
+23,Dealer 23 India,dealer23@indiansupplier.com,+91-9396905421,1,Maharashtra,Chennai,"783 Business Street, Chennai",distributor,REG735770,GST42720857666,4.55,0.752,0.973,0.704,True,2023-11-20 19:08:01.563427
+24,Dealer 24 Intl,dealer24@global.com,+625-2664863,6,International,New York,"971 Business Street, New York",wholesaler,REG755900,,3.42,0.864,0.747,0.661,True,2025-04-29 19:08:01.563434
+25,Dealer 25 India,dealer25@indiansupplier.com,+91-9960826470,1,Tamil Nadu,Ahmedabad,"609 Business Street, Ahmedabad",distributor,REG405407,GST40204958203,3.58,0.713,0.958,0.625,True,2024-11-17 19:08:01.563441
+26,Dealer 26 Intl,dealer26@global.com,+118-4771676,5,International,Milan,"664 Business Street, Milan",wholesaler,REG378535,,4.65,0.629,0.75,0.708,True,2023-12-10 19:08:01.563449
+27,Dealer 27 Intl,dealer27@global.com,+480-6101803,9,International,Shanghai,"717 Business Street, Shanghai",distributor,REG385470,,4.0,0.798,0.724,0.614,True,2024-04-28 19:08:01.563456
+28,Dealer 28 Intl,dealer28@global.com,+94-4840714,6,International,New York,"985 Business Street, New York",manufacturer,REG901909,,4.34,0.708,0.712,0.865,True,2024-03-20 19:08:01.563464
+29,Dealer 29 India,dealer29@indiansupplier.com,+91-7779489931,1,Karnataka,Hyderabad,"600 Business Street, Hyderabad",distributor,REG765620,GST77921664860,4.94,0.788,0.823,0.712,True,2025-03-29 19:08:01.563472
+30,Dealer 30 Intl,dealer30@global.com,+711-9312590,7,International,Milan,"296 Business Street, Milan",distributor,REG953085,,4.52,0.615,0.726,0.688,True,2025-03-18 19:08:01.563479

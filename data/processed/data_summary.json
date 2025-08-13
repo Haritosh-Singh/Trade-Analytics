@@ -1,0 +1,172 @@
+{
+  "generation_date": "2025-08-13T19:08:01.851148",
+  "datasets": {
+    "countries": {
+      "records": 10,
+      "columns": [
+        "name",
+        "code",
+        "gdp_rank",
+        "currency",
+        "base_import_duty",
+        "base_export_duty",
+        "id"
+      ],
+      "file_size_mb": 0.0
+    },
+    "product_categories": {
+      "records": 10,
+      "columns": [
+        "name",
+        "hs_code_prefix",
+        "description",
+        "id"
+      ],
+      "file_size_mb": 0.0
+    },
+    "products": {
+      "records": 50,
+      "columns": [
+        "id",
+        "name",
+        "sku",
+        "category_id",
+        "hs_code",
+        "unit_of_measure",
+        "is_raw_material",
+        "is_finished_good",
+        "manufacturing_cost_per_unit",
+        "requires_license",
+        "restricted_countries"
+      ],
+      "file_size_mb": 0.02
+    },
+    "dealers": {
+      "records": 30,
+      "columns": [
+        "id",
+        "name",
+        "email",
+        "phone",
+        "country_id",
+        "state",
+        "city",
+        "address",
+        "business_type",
+        "registration_number",
+        "gst_number",
+        "overall_rating",
+        "reliability_score",
+        "quality_score",
+        "delivery_performance",
+        "is_active",
+        "created_at"
+      ],
+      "file_size_mb": 0.02
+    },
+    "dealer_products": {
+      "records": 170,
+      "columns": [
+        "id",
+        "dealer_id",
+        "product_id",
+        "cost_per_unit",
+        "minimum_order_quantity",
+        "maximum_supply_capacity",
+        "average_delivery_days",
+        "delivery_reliability",
+        "quality_rating",
+        "defect_rate",
+        "is_available",
+        "last_updated"
+      ],
+      "file_size_mb": 0.01
+    },
+    "country_tariffs": {
+      "records": 90,
+      "columns": [
+        "id",
+        "country_id",
+        "product_category_id",
+        "import_duty_rate",
+        "export_duty_rate",
+        "additional_taxes",
+        "requires_certification",
+        "certification_cost",
+        "processing_days",
+        "effective_from",
+        "effective_to"
+      ],
+      "file_size_mb": 0.01
+    },
+    "trade_routes": {
+      "records": 36,
+      "columns": [
+        "id",
+        "origin_country_id",
+        "destination_country_id",
+        "transport_mode",
+        "base_cost_per_kg",
+        "base_cost_per_cbm",
+        "transit_days",
+        "delay_probability",
+        "average_delay_days",
+        "origin_port",
+        "destination_port",
+        "is_active"
+      ],
+      "file_size_mb": 0.01
+    },
+    "trade_transactions": {
+      "records": 200,
+      "columns": [
+        "id",
+        "transaction_id",
+        "dealer_id",
+        "product_id",
+        "destination_country_id",
+        "quantity",
+        "unit_price",
+        "total_product_value",
+        "logistics_cost",
+        "tariff_cost",
+        "other_charges",
+        "total_cost",
+        "selling_price",
+        "profit_amount",
+        "profit_margin_percentage",
+        "order_date",
+        "expected_delivery_date",
+        "actual_delivery_date",
+        "status",
+        "predicted_profit",
+        "predicted_delivery_days",
+        "prediction_accuracy"
+      ],
+      "file_size_mb": 0.05
+    },
+    "exchange_rates": {
+      "records": 210,
+      "columns": [
+        "id",
+        "from_currency",
+        "to_currency",
+        "rate",
+        "date",
+        "source"
+      ],
+      "file_size_mb": 0.04
+    }
+  },
+  "business_insights": {
+    "total_dealers": 30,
+    "indian_dealers": 15,
+    "international_dealers": 15,
+    "total_products": 50,
+    "product_categories": 10,
+    "target_countries": 9,
+    "historical_transactions": 200,
+    "avg_profit_margin": 14.73,
+    "avg_delivery_days": 40.8
+  }
+}

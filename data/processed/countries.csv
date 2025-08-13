@@ -1,0 +1,11 @@
+name,code,gdp_rank,currency,base_import_duty,base_export_duty,id
+India,IN,5,INR,0.0,0.0,1
+United States,US,1,USD,2.5,0.0,2
+China,CN,2,CNY,7.5,0.0,3
+Germany,DE,4,EUR,4.2,0.0,4
+Japan,JP,3,JPY,3.8,0.0,5
+United Kingdom,GB,6,GBP,3.2,0.0,6
+France,FR,7,EUR,4.1,0.0,7
+Italy,IT,8,EUR,4.0,0.0,8
+Brazil,BR,9,BRL,8.2,0.0,9
+Canada,CA,10,CAD,2.8,0.0,10

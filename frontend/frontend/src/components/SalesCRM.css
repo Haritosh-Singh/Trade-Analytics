@@ -1,0 +1,528 @@
+/* Sales CRM Styles */
+.sales-crm {
+  display: flex;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Inter', 'Noto Sans', sans-serif;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 256px;
+  background-color: #f8f9fa;
+  border-right: 1px solid #e9ecef;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  padding: 24px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.sidebar-header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111418;
+  margin: 0;
+}
+
+.sidebar-nav {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #60758a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  width: 100%;
+}
+
+.nav-item:hover {
+  background-color: #f0f2f5;
+}
+
+.nav-item.active {
+  background-color: #f0f2f5;
+  color: #0d7ff2;
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  padding: 32px;
+  overflow-y: auto;
+}
+
+.content-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111418;
+  margin: 0;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 12px;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  background-color: #f0f2f5;
+  font-size: 14px;
+  color: #111418;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #0d7ff2;
+  box-shadow: 0 0 0 2px rgba(13, 127, 242, 0.1);
+}
+
+/* Tables */
+.dealers-table, .tariffs-table {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dealers-table table, .tariffs-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dealers-table th, .tariffs-table th {
+  background-color: #f8f9fa;
+  padding: 16px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #60758a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.dealers-table td, .tariffs-table td {
+  padding: 16px;
+  border-bottom: 1px solid #e9ecef;
+  color: #111418;
+}
+
+.dealer-info strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.dealer-info small {
+  color: #60758a;
+  font-size: 12px;
+}
+
+.performance-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.performance-badge.high {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.performance-badge.medium {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.performance-badge.low {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.action-btn {
+  padding: 4px 8px;
+  margin-right: 8px;
+  border: 1px solid #d0d7de;
+  background: white;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #111418;
+}
+
+.action-btn:hover {
+  background-color: #f8f9fa;
+}
+
+/* Charts */
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.chart-card {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.chart-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111418;
+  margin: 0 0 8px 0;
+}
+
+.chart-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111418;
+  margin-bottom: 8px;
+}
+
+.chart-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.chart-meta span:first-child {
+  color: #60758a;
+}
+
+.trend {
+  font-weight: 600;
+}
+
+.trend.positive {
+  color: #16a34a;
+}
+
+.trend.negative {
+  color: #dc2626;
+}
+
+.chart-placeholder {
+  height: 150px;
+  margin-top: 16px;
+}
+
+.profit-chart {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cost Breakdown */
+.cost-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.cost-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cost-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #f0f2f5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cost-fill {
+  height: 100%;
+  background-color: #0d7ff2;
+  transition: width 0.3s ease;
+}
+
+/* Comparison Charts */
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.comparison-card {
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.comparison-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111418;
+  margin: 0 0 16px 0;
+}
+
+.performance-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.performance-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.performance-item span:first-child {
+  min-width: 100px;
+  font-size: 14px;
+  color: #111418;
+}
+
+.performance-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #f0f2f5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.performance-fill {
+  height: 100%;
+  background-color: #0d7ff2;
+  transition: width 0.3s ease;
+}
+
+.performance-item span:last-child {
+  font-size: 14px;
+  font-weight: 600;
+  color: #111418;
+  min-width: 40px;
+  text-align: right;
+}
+
+.cost-comparison {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cost-comparison .cost-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+}
+
+.cost-value {
+  font-weight: 600;
+  color: #111418;
+}
+
+/* Recommendations */
+.recommendations-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+}
+
+.recommendation-card {
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.rec-1 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23a0522d" width="400" height="300"/><rect fill="%23d2691e" x="50" y="50" width="300" height="200" rx="10"/></svg>');
+}
+
+.rec-2 {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><rect fill="%23228b22" width="400" height="300"/><rect fill="%2332cd32" x="50" y="50" width="300" height="200" rx="10"/></svg>');
+}
+
+.rec-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+}
+
+.rec-overlay h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.rec-overlay p {
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Data Section */
+.data-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.data-input, .data-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.data-input label, .data-upload label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #60758a;
+}
+
+.manual-input {
+  padding: 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #111418;
+}
+
+.manual-input:focus {
+  outline: none;
+  border-color: #0d7ff2;
+  box-shadow: 0 0 0 2px rgba(13, 127, 242, 0.1);
+}
+
+.submit-btn, .upload-btn {
+  padding: 12px 24px;
+  background-color: #0d7ff2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover, .upload-btn:hover {
+  background-color: #0c72d9;
+}
+
+.file-input {
+  display: none;
+}
+
+/* Loading */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f0f2f5;
+  border-top: 4px solid #0d7ff2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-container h2 {
+  color: #111418;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .sales-crm {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .charts-grid,
+  .comparison-grid,
+  .recommendations-grid,
+  .data-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .main-content {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,51 @@
+id,name,sku,category_id,hs_code,unit_of_measure,is_raw_material,is_finished_good,manufacturing_cost_per_unit,requires_license,restricted_countries
+1,Premium Cotton T-Shirt,PRD0001,1,5045,pieces,True,True,78.37,True,"[""CN"", ""US""]"
+2,Premium Cotton T-Shirt,PRD0002,1,5021,pieces,True,True,257.62,True,"[""CN"", ""US""]"
+3,Export Silk Saree,PRD0003,1,5085,liters,True,True,381.82,True,"[""US"", ""CN""]"
+4,Standard Denim Jeans,PRD0004,1,5037,liters,True,True,55.45,True,"[""US""]"
+5,Economy Linen Shirt,PRD0005,1,5015,meters,True,True,486.83,False,[]
+6,Economy Darjeeling Tea,PRD0006,2,0190,sets,False,True,292.9,True,[]
+7,Economy Black Pepper,PRD0007,2,0120,pieces,True,True,196.26,False,"[""US"", ""CN""]"
+8,Economy Cardamom,PRD0008,2,0136,liters,True,True,308.47,True,"[""CN"", ""US""]"
+9,Export Turmeric Powder,PRD0009,2,0144,sets,True,True,345.46,True,[]
+10,Economy Basmati Rice,PRD0010,2,0161,liters,True,True,113.38,False,[]
+11,Export Blood Pressure Pills,PRD0011,3,3092,meters,True,True,139.79,True,"[""US"", ""CN""]"
+12,Export Vitamin D3,PRD0012,3,3056,pieces,True,True,259.67,True,[]
+13,Standard Paracetamol Tablets,PRD0013,3,3090,pieces,False,True,302.24,False,"[""US""]"
+14,Economy Vitamin D3,PRD0014,3,3080,kg,True,True,344.04,False,"[""US"", ""CN""]"
+15,Export Diabetes Medicine,PRD0015,3,3030,meters,True,True,477.37,False,"[""CN"", ""US""]"
+16,Bulk Fertilizer,PRD0016,4,2887,pieces,True,True,193.22,True,"[""CN"", ""US""]"
+17,Premium Pesticide,PRD0017,4,2824,liters,False,True,127.33,True,"[""CN"", ""US""]"
+18,Premium Pesticide,PRD0018,4,2878,pieces,True,True,333.28,True,"[""US""]"
+19,Bulk Industrial Acid,PRD0019,4,2898,pieces,False,True,205.51,False,"[""US""]"
+20,Standard Organic Dye,PRD0020,4,2838,kg,False,True,20.31,True,"[""CN"", ""US""]"
+21,Premium CNC Machine,PRD0021,5,8439,kg,True,True,431.22,True,"[""CN"", ""US""]"
+22,Standard Conveyor Belt,PRD0022,5,8479,pieces,False,True,129.07,False,"[""CN""]"
+23,Premium CNC Machine,PRD0023,5,8494,meters,False,True,217.55,False,"[""CN"", ""US""]"
+24,Export CNC Machine,PRD0024,5,8453,kg,True,True,103.88,False,[]
+25,Standard Conveyor Belt,PRD0025,5,8445,meters,True,True,438.5,True,"[""CN""]"
+26,Bulk Brake Pads,PRD0026,6,8711,kg,True,True,91.49,False,"[""CN""]"
+27,Premium Suspension Kit,PRD0027,6,8731,meters,True,True,492.8,False,"[""US""]"
+28,Bulk Suspension Kit,PRD0028,6,8794,meters,True,True,103.05,True,[]
+29,Bulk Exhaust System,PRD0029,6,8717,liters,True,True,34.57,False,"[""CN"", ""US""]"
+30,Premium Exhaust System,PRD0030,6,8733,kg,True,True,340.85,True,"[""CN""]"
+31,Standard Pearl Set,PRD0031,7,7184,sets,True,True,313.5,False,"[""US"", ""CN""]"
+32,Economy Diamond Necklace,PRD0032,7,7140,liters,False,True,74.13,False,"[""US""]"
+33,Premium Gold Ring,PRD0033,7,7168,sets,True,True,45.9,True,"[""US"", ""CN""]"
+34,Premium Silver Bracelet,PRD0034,7,7141,liters,False,True,87.3,False,"[""CN"", ""US""]"
+35,Standard Gold Ring,PRD0035,7,7143,kg,True,True,373.78,True,"[""US""]"
+36,Standard Memory Chip,PRD0036,8,8553,pieces,False,True,257.65,False,[]
+37,Export Laptop,PRD0037,8,8545,kg,True,True,173.44,True,"[""US"", ""CN""]"
+38,Bulk Router,PRD0038,8,8564,sets,True,True,64.82,True,"[""CN"", ""US""]"
+39,Bulk Memory Chip,PRD0039,8,8528,meters,True,True,30.5,False,[]
+40,Standard Server,PRD0040,8,8597,pieces,True,True,183.3,False,"[""CN"", ""US""]"
+41,Standard Handbag,PRD0041,9,4162,kg,True,True,370.92,False,"[""CN""]"
+42,Standard Sports Shoes,PRD0042,9,4199,kg,False,True,437.36,False,[]
+43,Export Handbag,PRD0043,9,4154,liters,True,True,119.23,True,"[""US""]"
+44,Premium Sports Shoes,PRD0044,9,4145,liters,False,True,342.96,False,[]
+45,Economy Leather Jacket,PRD0045,9,4132,sets,False,True,28.75,False,"[""US""]"
+46,Bulk Embroidered Cushion,PRD0046,10,9575,kg,False,True,450.76,True,"[""CN""]"
+47,Premium Embroidered Cushion,PRD0047,10,9576,sets,True,True,188.47,True,"[""US"", ""CN""]"
+48,Economy Wooden Sculpture,PRD0048,10,9574,liters,False,True,169.83,False,"[""CN"", ""US""]"
+49,Export Embroidered Cushion,PRD0049,10,9596,pieces,False,True,208.98,True,"[""US""]"
+50,Export Brass Statue,PRD0050,10,9584,sets,False,True,237.84,False,"[""CN"", ""US""]"
