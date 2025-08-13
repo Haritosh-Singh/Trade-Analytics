@@ -3,6 +3,10 @@ import axios from 'axios';
 import { ProfitChart, CostChart, PerformanceChart } from './Charts';
 import './SalesCRM.css';
 
+// Import images
+import tradeGrowthImage from '../assets/images/trade-growth.svg';
+import costOptimizationImage from '../assets/images/cost-optimization.svg';
+
 const API_BASE_URL = 'http://localhost:8000/api';
 
 const SalesCRM = () => {
@@ -337,15 +341,33 @@ const SalesCRM = () => {
 
             <div className="recommendations-grid">
               <div className="recommendation-card rec-1">
+                <img 
+                  src={tradeGrowthImage} 
+                  alt="Trade Growth Visualization" 
+                  className="recommendation-image"
+                />
                 <div className="rec-overlay">
-                  <h3>Recommendation 1</h3>
-                  <p>Increase sales in the USA by focusing on Product X with Dealer A.</p>
+                  <h3>Increase Sales Strategy</h3>
+                  <p>Focus on USA market expansion with Product X through high-performance Dealer A. Projected 25% growth in Q4.</p>
+                  <div className="rec-metrics">
+                    <span className="metric">📈 +25% Growth</span>
+                    <span className="metric">💰 $2.5M Revenue</span>
+                  </div>
                 </div>
               </div>
               <div className="recommendation-card rec-2">
+                <img 
+                  src={costOptimizationImage} 
+                  alt="Cost Optimization Visualization" 
+                  className="recommendation-image"
+                />
                 <div className="rec-overlay">
-                  <h3>Recommendation 2</h3>
-                  <p>Reduce costs in Canada by optimizing Product Y distribution with Dealer B.</p>
+                  <h3>Cost Optimization Plan</h3>
+                  <p>Reduce logistics costs in Canada by 15% through optimized Product Y distribution channels with Dealer B.</p>
+                  <div className="rec-metrics">
+                    <span className="metric">📉 -15% Costs</span>
+                    <span className="metric">⚡ 2 Days Faster</span>
+                  </div>
                 </div>
               </div>
             </div>
